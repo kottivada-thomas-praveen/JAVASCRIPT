@@ -1,11 +1,11 @@
-const decreasebtn = document.getElementById("decreasebtn");
+const decrease = document.getElementById("decreasebtn");
 const increasebtn = document.getElementById("increasebtn");
 const resetbtn = document.getElementById("resetbtn");
 let counter = document.getElementById("counter");
 
 let count = 0;
 
-decreasebtn.onclick = function(){
+decrease.onclick = function(){
     count--;
     counter.textContent = count;
 }
