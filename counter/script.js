@@ -8,8 +8,17 @@ let count = 0;
 decrease.onclick = function(){
     count--;
     counter.textContent = count;
-    if(count===42 && count===49){
+    if(count===42){
         counter.textContent = '🍭';
+    }
+    if (count===49) {
+        counter.textContent = '🍭🍭🍭🍭';
+    }
+    if(count=== -42){
+        counter.textContent = '🍭';
+    }
+    if (count=== -49) {
+        counter.textContent = '🍭🍭🍭🍭';
     }
 }
 
@@ -22,8 +31,11 @@ increasebtn.onclick = function(){
 
     count++;
     counter.textContent = count;
-    if(count===42 && count===49){
+    if(count===42){
         counter.textContent = '🍭';
+    }
+    if (count===49) {
+        counter.textContent = '🍭🍭🍭🍭';
     }
 }
 
